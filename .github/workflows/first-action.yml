@@ -3,9 +3,7 @@ on: workflow_dispatch
 jobs:
   first-job:
     runs-on: ubuntu-latest
-    steps:
-      - name: Print step
-        run: echo "Hello world !"
+    steps:      
       - name: multiple runs with pipe
         run: |
           echo " second echo"
