@@ -6,3 +6,7 @@ jobs:
     steps:
       - name: Print step
         run: echo "Hello world !"
+      - name: multiple runs with pipe
+        run: |
+          echo " second echo"
+          echo " third echo"
